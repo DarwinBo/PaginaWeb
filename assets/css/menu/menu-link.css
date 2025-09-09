@@ -1,0 +1,13 @@
+.menu__link{
+    text-decoration: none;
+    padding: 2rem;
+    color: #ffffff;
+    font-size: 1.70rem;
+    text-transform: uppercase;
+}
+
+.menu__link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: orange;
+}

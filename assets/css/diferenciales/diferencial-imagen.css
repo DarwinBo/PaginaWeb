@@ -1,0 +1,10 @@
+.imagen__diferencial{
+    width: 40%;
+    height: 40%;
+    box-shadow: 8px 8px 5px rgba(33, 1, 1, 0.75);
+    transition: 400ms;
+}
+
+.imagen__diferencial:hover{
+    opacity: 0.3;
+}

@@ -1,0 +1,22 @@
+.enviar{
+    font-size: 20px;
+    padding: 1rem;
+    border-radius: 20%;
+    background: orangered ;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    cursor:pointer;
+    transition: 1s all;
+}
+
+.enviar:hover{
+    background:rgb(204, 57, 4);
+    transform: scale(1.1);
+}
+
+.enviar:active{
+    transition: none;
+    transform: none;
+    background: green;
+}

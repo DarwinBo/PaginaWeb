@@ -1,0 +1,9 @@
+.nosotros__title{
+    text-align: center;
+    padding: 2rem;
+    font-size: 25px;
+    font-weight: bold;
+    color: brown;
+    text-shadow: 0 4px 4px rgba(33, 1, 1, 0.75);
+    font-family: montserrat , cursive;
+}

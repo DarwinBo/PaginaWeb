@@ -1,0 +1,11 @@
+.input__contacto{
+    margin: 0.5rem 0;
+    color: #ffffff;
+    background: black;
+    padding: 0.5rem 3rem ;
+}
+
+::placeholder{
+    color: #ffffff;
+    text-align: center;
+}

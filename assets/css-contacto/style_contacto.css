@@ -1,0 +1,134 @@
+.contacto__principal{
+    padding: 2rem 0rem ;
+    background: linear-gradient(#F7F5F5,#036c92);
+}
+
+.contacto__container{
+    display: flex;
+    color: #ffffff;
+    background: url(/assets/img/fondo-contacto.jpg);
+    flex-flow: column;
+    align-items: center;
+    margin: 1em 12rem;
+    padding: 2rem 0;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+
+.contacto__label{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.input__contacto{
+    margin: 0.5rem 0;
+    color: #ffffff;
+    background: black;
+    padding: 0.5rem 3rem ;
+}
+
+::placeholder{
+    color: #ffffff;
+    text-align: center;
+}
+
+.field__container{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    padding-bottom: 1rem ;
+    font-family: montserrat, sans-serif;
+}
+
+.radio__titulo{
+    padding: 1rem 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.selector__caja{
+    border-radius: 5px;
+    padding: 0.4rem; 
+}
+
+.selector__items{
+    font-family: montserrat, sans-serif;
+}
+
+.checkbox{
+    margin-bottom: 2rem;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.enviar{
+    font-size: 20px;
+    padding: 1rem;
+    border-radius: 20%;
+    background: orangered ;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    cursor:pointer;
+    transition: 1s all;
+}
+
+.enviar:hover{
+    background:rgb(204, 57, 4);
+    transform: scale(1.1);
+}
+
+.enviar:active{
+    transition: none;
+    transform: none;
+    background: green;
+}
+    
+@media screen and (max-width:480px){
+
+    .contacto__container{
+        display: flex;
+        width: 90%;
+        margin: 1em 1rem;  
+ } 
+
+    #mensaje{
+    width: 60%;
+ }
+
+    .radio__titulo{
+        text-align: center;
+ }
+
+    .checkbox{
+        text-align: center;
+ }
+
+    .enviar{
+        font-size: 15px;
+}
+
+
+}
+ 
+ @media screen and (min-width: 481px) and (max-width:768px){
+ 
+
+    .contacto__container{
+        display: flex;
+        margin: 0 5rem;
+ } 
+  
+    #mensaje{
+        width: 60%;
+     }
+
+     .radio__titulo{
+        text-align: center;
+ }
+
+    .checkbox{
+        text-align: center;
+ }
+  
+ }

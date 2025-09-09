@@ -1,0 +1,12 @@
+.banner__titulo{
+    color: orange;
+    font-family: pacifico, cursive;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    text-shadow: 0 4px 4px black;
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+    
+}

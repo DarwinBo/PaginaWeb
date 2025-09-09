@@ -1,0 +1,7 @@
+    <link rel="stylesheet" href="/assets/css-productos/Productos/productos.css">
+    <link rel="stylesheet" href="/assets/css-productos/Productos/productos-items.css">
+    <link rel="stylesheet" href="/assets/css-productos/Productos/productos-title.css">
+    <link rel="stylesheet" href="/assets/css-productos/Productos/productos-imagen.css">
+    <link rel="stylesheet" href="/assets/css-productos/Productos/productos-descripcion.css">
+    <link rel="stylesheet" href="/assets/css-productos/Productos/productos-precio.css">
+    <link rel="stylesheet" href="/assets/css-productos/Productos/productos-container.css">

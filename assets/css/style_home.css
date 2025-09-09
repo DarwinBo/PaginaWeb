@@ -1,0 +1,296 @@
+/* Inicia el header */
+
+.cabecera{
+    align-items: center;
+    display: flex;
+    background-image: url(/assets/img/banner.jpg);
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* Inicia el menú de navegación */
+
+.menu__lista{
+    display: flex;
+}
+
+.menu__items{
+    list-style: none;
+}
+
+.menu__link{
+    text-decoration: none;
+    padding: 2rem;
+    color: #ffffff;
+    font-size: 1.70rem;
+    text-transform: uppercase;
+}
+
+.menu__link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: orange;
+}
+
+/* Finaliza el header */
+
+/* Inicia el Banner */
+
+.banner{
+    position: relative;
+}
+
+.banner__imagen{
+    width: 100%;
+    height: 300px;
+}
+
+.banner__titulo{
+    color: orange;
+    font-family: pacifico, cursive;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    text-shadow: 0 4px 4px black;
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+}
+
+/* Finaliza el Banner */
+
+/* Inicia el main */
+/* Seccion principal */
+
+.principal{
+    text-align: center;
+    padding: 2rem;
+}
+
+.principal__titulo{
+    font-family: monserrat, cursive;
+    font-size: 50px;
+    font-weight: bold;
+    left: 50%;
+    top: 50%;
+    padding: 2rem;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+}
+
+.principal__texto{
+    font-size: 20px;
+}
+/* Finaliza la sección principal */
+
+/* Inicia seccion sobre nosotros */
+
+.nosotros{
+    background: rgb(247, 245, 245);
+    margin-top: 2rem;
+    
+}
+
+.nosotros__title{
+    text-align: center;
+    padding: 2rem;
+    font-size: 25px;
+    font-weight: bold;
+    color: brown;
+    text-shadow: 0 4px 4px rgba(33, 1, 1, 0.75);
+    font-family: monserrat , cursive;
+}
+
+.nosotros__container{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.nosotros__imagen{
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin: 0 20px 20px 0;
+    box-shadow: 7px 7px 5px rgba(33, 1, 1, 0.75);
+}
+
+.nosotros__texto{
+    font-size: 16px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}
+/* Finaliza seccion sobre nosotros */
+    
+/* Inicia seccion ubicación */
+
+.ubicacion{
+    padding-top: 2em;
+    background: rgb(247, 245, 245);
+}
+
+.titulo__ubicacion{
+    text-align: center;
+    margin: 2em 0 1em;
+    font-size: 25px;
+    font-weight: bold;
+    color: green;
+    text-shadow: 0 4px 4px rgba(33, 1, 1, 0.75);
+}
+
+.texto__ubicacion{
+    text-align: center;
+    margin: 0 0 3em;
+    font-weight: bold;
+    font-family: monserrat, sans-serif;
+}
+
+.mapa__container{
+    text-align: center;
+    padding-bottom: 2rem;
+    background: linear-gradient(#F7F5F5,#b0b0b0)
+}
+
+.mapa__ubicacion{
+    box-shadow: 7px 7px 5px rgba(33, 1, 1, 0.75);
+}
+/* Finaliza seccion ubicación */
+
+/* Inicia seccion diferencial */
+
+.diferencial{
+    background: #b0b0b0;
+}
+
+.title__diferencial{
+    text-align: center;
+    padding: 2em 0 2em;
+    font-size: 25px;
+    font-weight: bold;
+    color: #0404c7;
+    text-shadow: 0 4px 4px rgba(33, 1, 1, 0.75);
+}
+
+.diferencial__container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    
+}
+
+.lista__diferenciales{
+    margin-right: 2em;
+}
+
+.items__diferenciales{
+    line-height: 2em;
+    font-size: 1.4rem ;
+    font-family: monserrat ,sans-serif;
+}
+
+.items__diferenciales:before{
+    content: "⮚";  
+}
+
+.imagen__diferencial{
+    width: 40%;
+    height: 40%;
+    box-shadow: 8px 8px 5px rgba(33, 1, 1, 0.75);
+    transition: 400ms;
+}
+
+.imagen__diferencial:hover{
+    opacity: 0.3;
+}
+/* Finaliza seccion diferencial */
+
+/* Inicia el footer */
+
+.final{
+    text-align: center;
+    background: url(/assets/img/bg.jpg);
+    padding: 2rem 2rem;
+    
+}
+
+.logo__final{
+    width: 120px;
+    height: 120px;
+
+}
+
+.copyright__final{
+    color: white;
+}
+/* Finaliza el footer */ 
+
+
+@media screen and (max-width:480px){
+   .menu__lista{
+    display: block;
+   }
+
+   .menu__link{
+    font-size: 1.5rem;
+    line-height: 2em;
+   }
+
+   .principal__titulo{
+    font-size: 25px;
+   }
+
+   .principal__texto{
+    font-size: 20px;
+   }
+
+   .nosotros__container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+   .nosotros__imagen{
+    height: 50px;
+    width: 50px;
+   }
+
+   .nosotros__texto{
+    font-size: 12px ;
+   }
+
+   .texto__ubicacion{
+    font-size: 14px;
+
+   }
+
+   .mapa__ubicacion{
+    width: 340px;
+    height: 300px;
+    
+   }
+
+   .diferencial__container{
+    flex-flow: column;
+    align-items: center;
+   }
+ 
+}
+
+@media screen and (min-width: 481px) and (max-width:684px){
+    .menu__link{
+        padding: 1rem;
+        font-size: 1.50rem;
+        
+    }
+
+    .mapa__ubicacion{
+        width: 550px;
+        height: 350px;
+        
+       }
+    
+
+}

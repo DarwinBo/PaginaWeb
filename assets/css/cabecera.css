@@ -1,0 +1,7 @@
+.cabecera{
+    align-items: center;
+    display: flex;
+    background-image: url(/assets/img/banner.jpg);
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}

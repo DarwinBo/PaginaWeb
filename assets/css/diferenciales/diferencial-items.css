@@ -1,0 +1,10 @@
+.items__diferenciales{
+    line-height: 2em;
+    font-size: 1.4rem ;
+    font-family: monserrat ,sans-serif;
+}
+
+.items__diferenciales:before{
+    content: "⮚";  
+}
+

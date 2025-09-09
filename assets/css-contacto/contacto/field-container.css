@@ -1,0 +1,7 @@
+.field__container{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    padding-bottom: 1rem ;
+    font-family: montserrat, sans-serif;
+}
